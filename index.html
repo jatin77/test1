@@ -1,0 +1,944 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+  <!-------------font awesome icons-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="glide.core.min.css">
+  <link rel="stylesheet" href="sass.css">
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  
+  <script type="text/javascript">
+  var zero=0;
+    $(document).ready(function(){
+      $(window).on("scroll",function(){
+        $("header .navbar").toggleClass("hide",$(window).scrollTop()>zero);
+        zero=$(window).scrollTop();
+      })
+    })
+  </script>
+
+  <title>Hello, world!</title>
+</head>
+
+
+</script>
+
+<body>
+  <!-----------------header--------->
+  <header>
+    <div class="container">
+      <div class="navbar">
+        <!---------mobile-------->
+        <div class="mobile mb-toggle">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <!---------mobile end-->
+        <div class="brand">
+          <h1>CAREERS<span>360</span>
+          </h1>
+        </div>
+        <!--------mobile------->
+        <div class="mobile get">
+          <div class="mobile mb-search">
+            <div class="mb-search-icon">
+              <small><i class="fas fa-search"></i></small>
+            </div>
+            <button class="mobile mb-search-getApp"><small>Get App</small></button>
+          </div>
+
+        </div>
+        <!--------mobile end------->
+        <div class="stream">
+          <div class="stream-btn">
+            <button>Browse By Stream <i class="fas fa-angle-down"></i></button>
+            <!-- <div class="stream-btn-hover-box">
+              <div class="stream-left-hover">
+                <ul>
+                  <li><a href="one">Engineering and Architecture <i class="fas fa-angle-right"></i></a></li>
+                  <li><a href="two">Engineering and Architecture <i class="fas fa-angle-right"></i></a></li>
+                  <li><a href="#">Engineering and Architecture <i class="fas fa-angle-right"></i></a></li>
+                  <li><a href="#">Engineering and Architecture <i class="fas fa-angle-right"></i></a></li>
+                  <li><a href="#">Engineering and Architecture <i class="fas fa-angle-right"></i></a></li>
+                  <li><a href="#">Engineering and Architecture <i class="fas fa-angle-right"></i></a></li>
+                  <li><a href="#">Engineering and Architecture <i class="fas fa-angle-right"></i></a></li>
+                </ul>
+                </ul>
+                </ul>
+                </ul>
+                </ul>
+                </ul>
+              </div>
+              <div class="stream-right-hover">
+                <div class="stream-right-hover-innerBox" id="one">
+                  1
+                </div>
+                <div class="stream-right-hover-innerBox" id="two">
+                  2
+                </div>
+              </div>
+            </div> -->
+          </div>
+
+        </div>
+        <div class="new">
+          <span>My Companion</span>
+          <button>New</button>
+          <div class="new-angle-down">
+            <i class="fas fa-angle-down"></i>
+
+            <div class="buy">
+              <div class="buy-now">
+                <div>
+                  <span>
+                    <i class="fas fa-angle-right"></i>
+                    MBBS Companion</span>
+                  <button><small>Buy Now</small></button>
+                </div>
+                <div>
+                  <span>
+                    <i class="fas fa-angle-right"></i>
+                    B.Tech Companion</span>
+
+                  <button><small>Buy Now</small></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="login">login</div>
+      </div>
+    </div>
+    <!---------mobile-->
+    <div class="hover-menu ">
+      <div class="hover-menu-items">
+        <ul>
+          <li>
+            <div class="li-detail">
+              <i class="fas fa-drafting-compass"></i>
+              <a href="#">Engineering and Architecture</a>
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </li>
+          <li>
+            <div class="li-detail">
+              <i class="fas fa-chart-line"></i>
+              <a href="#">Management and Buiseness Administration</a>
+
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </li>
+          <li>
+            <div class="li-detail">
+              <i class="fas fa-balance-scale"></i>
+              <a href="#">Law</a>
+
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </li>
+          <li>
+            <div class="li-detail">
+              <i class="fas fa-video"></i>
+              <a href="#">Media,Mass Communication and journalism</a>
+
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </li>
+          <li>
+            <div class="li-detail">
+              <i class="fas fa-paint-brush"></i>
+              <a href="#">Animation</a>
+
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </li>
+          <li>
+            <div class="li-detail">
+              <i class="fas fa-stethoscope"></i>
+              <a href="#">Medicine and Allied Sciences</a>
+
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </li>
+          <li>
+            <div class="li-detail">
+              <i class="fas fa-vial"></i>
+              <a href="#">Arts,Commerce & Sciences</a>
+
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </li>
+          <li>
+            <div class="li-detail">
+              <i class="fas fa-tv"></i>
+              <a href="#">Computer Application and IT</a>
+
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </li>
+          <li>
+            <div class="li-detail">
+              <i class="fas fa-store-alt"></i>
+              <a href="#">Hospitality and Tourism</a>
+
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </li>
+
+
+
+        </ul>
+      </div>
+      <div class="hover-menu-login">
+        <p>Login</p>
+      </div>
+    </div>
+    <!--------searc lead bar------>
+    <div class="header-search-lead-bar">
+      <h1>India's Best Education Platform</h1>
+      <div class="form">
+        <div class="form-group">
+          <input class="form-control" type="text" placeholder="Search Colleges, Exams, Courses & more">
+          <div class="search-icon">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+        <div class="form-text">
+          <button><small>NEW</small></button>
+          <span class="form-text-hide"><small>Your one-stop Counselling Package:</small></span>
+          <span><small>
+              <a href="#"> B.TECH COMPANION </a> |
+              <a href="#"> MBBS
+                COMPANION</a>
+            </small></span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-----------------------header end-->
+  <section class="counselling">
+    <div class="container counselling-container">
+
+      <div class="counselling-header">
+        <h1>Counselling</h1>
+        <p>We ease your biggest doubts with personalized Video Counselling from our
+          Curated Experts and Answers from the student community </p>
+      </div>
+      <div class="counselling-inner-wrapper">
+        <div class="counselling-img-bx">
+          <img src="https://static.careers360.mobi/images/home/counseling.png" alt="">
+        </div>
+        <div class="counselling-text-box">
+          <div class="textBx-1 txt-bx">
+            <div class="user">
+              <img src="https://static.careers360.mobi/images/home/expert-chat.svg" class="sIcon">
+              <h2>Expert Counselling</h2>
+
+            </div>
+            <p>Personalized Video Counselling from Curated Experts on Exams, Courses, Colleges and Career selection on
+              our
+              App</p>
+            <button>START NOW <span> <i class="fas fa-angle-right"></i></span></button>
+          </div>
+
+          <div class="textBx-1 txt-bx">
+            <div class="ques">
+              <img src="https://static.careers360.mobi/images/home/qna.svg" class="sIcon">
+              <h2>QnA</h2>
+
+            </div>
+            <p>3 Lakh Questions answered by the student community within 48 hours each</p>
+            <button>ASK NOW <span> <i class="fas fa-angle-right"></i></span></button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------counseeling end-->
+  <!-------------------data ----->
+  <section class="data">
+    <div class="container data-container">
+      <div class="data-header">
+        <h1>Data</h1>
+        <p>We simplify information for you on over 24,000 Colleges, 500 Exams and
+          500 Courses across domains and regions all over India </p>
+      </div>
+      <div class="data-inner-wrapper">
+
+        <div class="data-text-box">
+          <div class="textBx-1 txt-bx">
+            <div class="user">
+              <img src="https://static.careers360.mobi/images/home/ranking.svg" class="sIcon">
+              <h2>Rankings</h2>
+
+            </div>
+            <p>1500 Colleges Ranked based on transparent, accurate, government-approved, student-friendly data</p>
+            <div class="btns">
+              <button>Top Engineering Colleges In India</button>
+              <button>Top MBA Colleges in India</button>
+              <button>Top Law Colleges in India</button>
+              <button>Top Medical Colleges in India</button>
+            </div>
+
+          </div>
+
+          <div class="textBx-1 txt-bx">
+            <div class="ques">
+              <img src="https://static.careers360.mobi/images/home/exam.svg" class="sIcon">
+              <h2>Exams</h2>
+            </div>
+            <p>Easy Information and downloads on Exam preparation, dates, counselling, syllabus and more</p>
+            <div class="btns">
+              <button>JEE Main</button>
+              <button>GATE</button>
+              <button>CAT</button>
+              <button>CLAT</button>
+              <button>NEET</button>
+              <button>BITSAT</button>
+              <button>SRMJEE</button>
+              <button>NIFT Entrance Exam</button>
+              <button>VITEEE</button>
+            </div>
+          </div>
+
+        </div>
+        <div class="data-img-bx">
+          <img src="https://static.careers360.mobi/images/home/data.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-------------------data end----->
+  <!---------------------prediction-->
+  <section class="prediction">
+    <div class="prediction-container container">
+      <div class="prediction-header">
+        <h1>Prediction</h1>
+        <p>We predict your College admission chances and Ranks based on years of
+          historical data and advanced Analytics to help you plan in advance</p>
+      </div>
+      <div class="prediction-inner-wrapper">
+        <div class="prediction-img-bx">
+          <img src="https://static.careers360.mobi/images/home/prediction.png" alt="">
+        </div>
+        <div class="prediction-text-box">
+          <div class="textBx-1 txt-bx">
+            <div class="user">
+              <img src="https://static.careers360.mobi/images/home/college-predictors.svg" class="sIcon">
+              <h2>College Predictors</h2>
+
+            </div>
+            <p>Know your College Admission chances at the course-level based on domicile, caste, gender etc</p>
+            <div class="btns">
+              <button>JEE Main College Predictor</button>
+              <button>GATE College Predictor with PSU Chances</button>
+              <button>NEET College Predictor</button>
+              <button>NEET PG College Predictor</button>
+              <button>MH CET College Predictor</button>
+              <button>TS EAMCET College Predictor</button>
+              <button>UPSEE College Predictor</button>
+              <button>CLAT College Predictor</button>
+            </div>
+
+          </div>
+
+          <div class="textBx-1 txt-bx">
+            <div class="ques">
+              <img src="https://static.careers360.mobi/images/home/rank-predictor.svg" class="sIcon">
+              <h2>Rank Predictors</h2>
+            </div>
+            <p>Predict your Rank before the actual results based on your performance in the exam and get in-depth
+              insights</p>
+            <div class="btns">
+              <button>JEE Main Rank Predictor</button>
+              <button>GATE Rank Predictor with PSU Chances</button>
+              <button>NEET Rank Predictor</button>
+              <button>NEET PG Rank Predictor</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!---------------------prediction end-->
+  <!---------------------other products -->
+  <section class="products">
+    <div class="container products-container">
+      <div class="products-header">
+        <h1>Other Products</h1>
+
+      </div>
+      <div class="products-inner-wrapper">
+        <div>
+          <img src="https://static.careers360.mobi/images/home/college-compare.svg" alt="" width="50" height="39">
+          <p>College Compare</p>
+        </div>
+        <div>
+          <img src="https://static.careers360.mobi/images/home/college-review.svg" alt="" width="50" height="39">
+          <p>College Reviews</p>
+        </div>
+        <div>
+          <img src="https://static.careers360.mobi/images/home/btech-companion.svg" alt="" width="50" height="39">
+          <p>B.Tech Companion</p>
+        </div>
+        <div>
+          <img src="https://static.careers360.mobi/images/home/mbbs-companion.svg" alt="" width="50" height="39">
+          <p>MBBS Companion</p>
+        </div>
+        <div>
+          <img src="https://static.careers360.mobi/images/home/course-listing.svg" alt="" width="50" height="38">
+          <p>List of Courses</p>
+        </div>
+        <div>
+          <img src="https://static.careers360.mobi/images/home/admission-open.svg" alt="" width="50" height="39">
+          <p>College Applications</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---------------------other products end-->
+  <!--------------------social media--->
+  <section class="social">
+    <div class="container social-container">
+      <div class="prediction-header">
+        <h1>Social Media</h1>
+
+      </div>
+      <div class="insta-box">
+        <div class="insta-box-header">
+
+          <button class="career-sm"><small><b>CAREERS</b>360</small></button>
+          <div class="goto-insta">
+            <p>Careers360</p>
+            <button><i class="fab fa-instagram"></i> Instagram</button>
+          </div>
+
+
+        </div>
+
+        <div class="link-insta">
+          <div>
+            <img
+              src="https://scontent.cdninstagram.com/vp/ca997d6f0a16b671f728698ef131f88a/5CE985C2/t51.2885-15/e35/s320x320/60771575_427308677846585_4876191462949244221_n.jpg?_nc_ht=scontent.cdninstagram.com"
+              alt="">
+          </div>
+          <div>
+            <img
+              src="https://scontent.cdninstagram.com/vp/fec0814480810172e54b3403276bc0fd/5CE9AA7D/t51.2885-15/e35/p320x320/58978612_408511839703357_1788094621655264117_n.jpg?_nc_ht=scontent.cdninstagram.com"
+              alt="">
+          </div>
+          <div>
+            <img
+              src="https://scontent.cdninstagram.com/vp/72f6f99bdb541cf491f41f4170bf9396/5CE982A1/t51.2885-15/e35/p320x320/59423074_396667441183031_1686257738643648698_n.jpg?_nc_ht=scontent.cdninstagram.com"
+              alt="">
+          </div>
+
+          <div>
+            <img
+              src="https://scontent.cdninstagram.com/vp/c8473ef70d849a3a8bfd61426ea30444/5D9D6640/t51.2885-15/e35/s320x320/58430436_885981995079929_6444879237515155556_n.jpg?_nc_ht=scontent.cdninstagram.com"
+              alt="">
+          </div>
+        </div>
+
+      </div>
+      <div class="social-border"></div>
+      <div class="youtube-box">
+        <div class="youtube-box-header">
+
+          <button class="career-sm"><small><b>CAREERS</b>360</small></button>
+          <div class="goto-youtube">
+            <p>Careers360</p>
+            <button><i class="fab fa-youtube"></i> YouTube</button>
+          </div>
+
+
+        </div>
+
+        <div class="link-youtube">
+          <div>
+            <iframe src="https://www.youtube.com/embed/G7MEF33XPCg" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>How to download IIMC Admit Card 2019</p>
+
+          </div>
+          <div>
+            <iframe src="https://www.youtube.com/embed/cFgGfpuoJUc" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>How to download JIPMER admit card 2019</p>
+
+          </div>
+          <div>
+            <iframe src="https://www.youtube.com/embed/lAybdy_TPVU" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>JEE Advanced 2019 Admit Card-Download Now!</p>
+          </div>
+
+          <div>
+            <iframe src="https://www.youtube.com/embed/1AwGMTm3XIM" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>How to Download FTII JET Result 2019</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!---------------------social media end-->
+  <!---------------download app-->
+  <section class="download-app">
+    <div class="container download-app-container">
+      <h2>Download the Careers360 App on your Android phone</h2>
+      <p>Regular exam updates, QnA, Predictors, College Applications & E-books now on your Mobile</p>
+      <img src="https://static.careers360.mobi/images/frontend/desktop/google-play.png" alt="Careers360 App">
+    </div>
+  </section>
+  <!---------------download app end-->
+  <!-------------testimonials-->
+  <section class="testimonial container">
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-no">
+          <p>150M+</p>
+          <p>Students</p>
+        </div>
+        <div class="stat-img">
+          <i class="fas fa-user-graduate"></i>
+        </div>
+      </div>
+      <div class="stat">
+        <div class="stat-no">
+          <p>2400+</p>
+          <p>Colleges</p>
+        </div>
+        <div class="stat-img">
+          <i class="fas fa-university"></i>
+        </div>
+      </div>
+      <div class="stat">
+        <div class="stat-no">
+          <p>500+</p>
+          <p>Exams</p>
+
+        </div>
+        <div class="stat-img">
+          <i class="fas fa-clipboard"></i>
+        </div>
+      </div>
+      <div class="stat">
+        <div class="stat-no">
+          <p>1500+</p>
+          <p>E-books</p>
+        </div>
+        <div class="stat-img">
+          <i class="fas fa-book"></i>
+        </div>
+      </div>
+    </div>
+    <div class="slider">
+      <div class="slide_viewer">
+        <div class="slide_group">
+          <div class="slide slide1">
+            <div class="content">
+              <div class="content-img">
+                <img src="image1.jpg" alt="">
+              </div>
+              <div class="content-text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, officiis.</p>
+                <p><b>Ashish Kumar</b></p>
+                <p>Medical Aspirant</p>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide2">
+            <div class="content">
+              <div class="content-img">
+                <img src="image2.jpg" alt="">
+              </div>
+              <div class="content-text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, officiis. Lorem, ipsum.</p>
+                <p><b>Dipanshu Shah</b></p>
+                <p>Medical Aspirant</p>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide3">
+            <div class="content">
+              <div class="content-img">
+                <img src="image3.jpg" alt="">
+              </div>
+              <div class="content-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea.</p>
+                <p><b>Abhay Kumar</b></p>
+                <p>Medical Aspirant</p>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide4">
+            <div class="content">
+              <div class="content-img">
+                <img src="image4.jpg" alt="">
+              </div>
+              <div class="content-text">
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p><b>Deepika Sharma</b></p>
+                <p>Engineering Aspirant</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End // .slider -->
+
+    <div class="slide_buttons">
+    </div>
+    <div class="sponsers">
+      <div>
+        <img src="https://static.careers360.mobi/images/frontend/desktop/economic-times.png" alt="Economic Times">
+      </div>
+      <div>
+        <img src="https://static.careers360.mobi/images/frontend/desktop/financial-express.png" alt="Financial Express">
+      </div>
+      <div>
+        <img src="https://static.careers360.mobi/images/frontend/desktop/firstpost.png" alt="Firstpost">
+      </div>
+      <div>
+        <img src="https://static.careers360.mobi/images/frontend/desktop/livemint.png" alt="Livemint">
+      </div>
+    </div>
+
+    <div class="directional_nav">
+      <div class="previous_btn" title="Previous">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          width="65px" height="65px" viewBox="-11 -11.5 65 66">
+          <g>
+            <g>
+              <path fill="#474544"
+                d="M-10.5,22.118C-10.5,4.132,4.133-10.5,22.118-10.5S54.736,4.132,54.736,22.118
+          c0,17.985-14.633,32.618-32.618,32.618S-10.5,40.103-10.5,22.118z M-8.288,22.118c0,16.766,13.639,30.406,30.406,30.406 c16.765,0,30.405-13.641,30.405-30.406c0-16.766-13.641-30.406-30.405-30.406C5.35-8.288-8.288,5.352-8.288,22.118z" />
+              <path fill="#474544"
+                d="M25.43,33.243L14.628,22.429c-0.433-0.432-0.433-1.132,0-1.564L25.43,10.051c0.432-0.432,1.132-0.432,1.563,0	c0.431,0.431,0.431,1.132,0,1.564L16.972,21.647l10.021,10.035c0.432,0.433,0.432,1.134,0,1.564	c-0.215,0.218-0.498,0.323-0.78,0.323C25.929,33.569,25.646,33.464,25.43,33.243z" />
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div class="next_btn" title="Next">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          width="65px" height="65px" viewBox="-11 -11.5 65 66">
+          <g>
+            <g>
+              <path fill="#474544"
+                d="M22.118,54.736C4.132,54.736-10.5,40.103-10.5,22.118C-10.5,4.132,4.132-10.5,22.118-10.5	c17.985,0,32.618,14.632,32.618,32.618C54.736,40.103,40.103,54.736,22.118,54.736z M22.118-8.288	c-16.765,0-30.406,13.64-30.406,30.406c0,16.766,13.641,30.406,30.406,30.406c16.768,0,30.406-13.641,30.406-30.406 C52.524,5.352,38.885-8.288,22.118-8.288z" />
+              <path fill="#474544"
+                d="M18.022,33.569c 0.282,0-0.566-0.105-0.781-0.323c-0.432-0.431-0.432-1.132,0-1.564l10.022-10.035 			L17.241,11.615c 0.431-0.432-0.431-1.133,0-1.564c0.432-0.432,1.132-0.432,1.564,0l10.803,10.814c0.433,0.432,0.433,1.132,0,1.564 L18.805,33.243C18.59,33.464,18.306,33.569,18.022,33.569z" />
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div><!-- End // .directional_nav -->
+
+
+
+  </section>
+  <!-------------testimonials end-->
+  <footer>
+    <div class="footer">
+      <div class="footer-brand">
+        <h1>CAREERS<span>360</span>
+        </h1>
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Hiring</a></li>
+          <li><a href="#">Magazine</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <div>
+          <img src="https://static.careers360.mobi/images/social/insta.svg" alt="careers360 Instagram">
+        </div>
+        <div>
+          <img src="https://static.careers360.mobi/images/social/youtube.svg" alt="careers360 Youtube">
+        </div>
+        <div>
+          <img src="https://static.careers360.mobi/images/social/facebook.svg" alt="careers360 Facebook">
+        </div>
+        <div>
+          <img src="https://static.careers360.mobi/images/social/linkdin.svg" alt="careers360 LinkedIn">
+        </div>
+        <div>
+          <img src="https://static.careers360.mobi/images/social/twitter.svg" alt="careers360 Twitter">
+        </div>
+      </div>
+    </div>
+    <!------------------desktop footer-->
+    <div class="footer-desktop">
+      <div class="top-exam">
+        <h4>Top Exams</h4>
+        <p>JEE Main</p>
+        <p>NEET UG</p>
+        <p>GATE</p>
+        <p>CAT</p>
+        <p>CLAT</p>
+      </div>
+      <div class="colleges">
+        <h4>Colleges</h4>
+        <p>Best Fit Colleges</p>
+        <p>College Review</p>
+        <p>Top Engineering Colleges In India</p>
+        <p>Top MBA Colleges In India</p>
+        <p>Top LAW Colleges In India</p>
+        <p>Top Medical Colleges In India</p>
+        <p>Admission Open</p>
+      </div>
+      <div class="predictors">
+        <h4>Predictors & Ebooks</h4>
+        <p>JEE Main College Predictor</p>
+        <p>JEE Advanced College Predictor</p>
+        <p>NEET College Predictor</p>
+        <p>GATE College Predictor</p>
+        <p>CAT Pathfinder</p>
+        <p>CLAT College Predictor</p>
+        <p>E-books & Sample Paper</p>
+      </div>
+      <div class="resources">
+        <h4>Resources</h4>
+        <p>B.Tech Companion</p>
+        <p>MBBS Companion</p>
+        <p>Download App</p>
+        <p>QnA</p>
+        <p>Counselling Webinars</p>
+      </div>
+    </div>
+    <!------------------desktop footer end-->
+    <!-----------------mobile footer-->
+    <div class="footer-menu">
+      <ul>
+        <li>
+          <div class="dropDown">
+            <p>Top Exams</p>
+            <i class="drop btn fas fa-chevron-down"></i>
+
+          </div>
+          <div>
+            <div class="showTrade">
+              <p>JEE Main</p>
+              <p>NEET UG</p>
+              <p>GATE</p>
+              <p>CAT</p>
+              <p>CLAT</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropDown">
+            <p>Colleges</p>
+            <i class="drop btn fas fa-chevron-down"></i>
+
+          </div>
+          <div>
+            <div class="showTrade">
+              <p>Best Fit Colleges</p>
+              <p>College Rewiew</p>
+              <p>Top Engineering Colleges in India</p>
+              <p>Top MBA Colleges in India</p>
+              <p>Top Law Colleges in India</p>
+              <p>Top Medical Colleges in India</p>
+              <p>Admission Open</p>
+            </div>
+
+          </div>
+        </li>
+        <li>
+          <div class="dropDown">
+            <p>Predictors & Ebooks</p>
+            <i class="drop btn fas fa-chevron-down"></i>
+
+          </div>
+          <div>
+            <div class="showTrade">
+              <p>JEE Main College Predictor</p>
+              <p>JEE Advanced College Predictor</p>
+              <p>NEET College Predictor</p>
+              <p>GATE College Predictor</p>
+              <p>CAT College Predictor</p>
+              <p>CLAT College Predictor</p>
+              <p>E-books & Sample Paper</p>
+            </div>
+
+          </div>
+        </li>
+        <li>
+          <div class="dropDown">
+            <p>Resources</p>
+            <i class="drop btn fas fa-chevron-down"></i>
+
+          </div>
+          <div>
+            <div class="showTrade">
+              <p>B.Tech Companion</p>
+              <p>MBBS Companion</p>
+              <p>Download App</p>
+              <p>QnA</p>
+              <p>Counselling Webinars</p>
+
+            </div>
+
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-seeoff ">
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">Disclaimer</a></li>
+          <li><a href="#">Comment Policy</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+
+        </ul>
+      </div>
+      <div class="copyright">
+        <p><small>Copyright &copy; 2019 Pathfinder Publishing Pvt Ltd.</small></p>
+
+      </div>
+      <div class="footer-partner">
+        <p><small>Partner Sites:</small></p>
+        <div class="partnerLogo">
+          <img class="faculyIco" src="https://static.careers360.mobi/images/frontend/desktop/faculty360.svg"
+            alt="Faculty360">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
+  <script src="main.js"></script>
+  <script>
+    $('.slider').each(function () {
+      var $this = $(this);
+      var $group = $this.find('.slide_group');
+      var $slides = $this.find('.slide');
+      var bulletArray = [];
+      var currentIndex = 0;
+      var timeout;
+
+      function move(newIndex) {
+        var animateLeft, slideLeft;
+
+        advance();
+
+        if ($group.is(':animated') || currentIndex === newIndex) {
+          return;
+        }
+
+        bulletArray[currentIndex].removeClass('active');
+        bulletArray[newIndex].addClass('active');
+
+        if (newIndex > currentIndex) {
+          slideLeft = '100%';
+          animateLeft = '-100%';
+        } else {
+          slideLeft = '-100%';
+          animateLeft = '100%';
+        }
+
+        $slides.eq(newIndex).css({
+          display: 'block',
+          left: slideLeft
+        });
+        $group.animate({
+          left: animateLeft
+        }, function () {
+          $slides.eq(currentIndex).css({
+            display: 'none'
+          });
+          $slides.eq(newIndex).css({
+            left: 0
+          });
+          $group.css({
+            left: 0
+          });
+          currentIndex = newIndex;
+        });
+      }
+
+      function advance() {
+        clearTimeout(timeout);
+        timeout = setTimeout(function () {
+          if (currentIndex < ($slides.length - 1)) {
+            move(currentIndex + 1);
+          } else {
+            move(0);
+          }
+        }, 4000);
+      }
+
+      $('.next_btn').on('click', function () {
+        if (currentIndex < ($slides.length - 1)) {
+          move(currentIndex + 1);
+        } else {
+          move(0);
+        }
+      });
+
+      $('.previous_btn').on('click', function () {
+        if (currentIndex !== 0) {
+          move(currentIndex - 1);
+        } else {
+          move(3);
+        }
+      });
+
+      $.each($slides, function (index) {
+        var $button = $('<a class="slide_btn">&bull;</a>');
+
+        if (index === currentIndex) {
+          $button.addClass('active');
+        }
+        $button.on('click', function () {
+          move(index);
+        }).appendTo('.slide_buttons');
+        bulletArray.push($button);
+      });
+
+      advance();
+    });
+  </script>
+
+</body>
+
+</html>
